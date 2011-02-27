@@ -26,7 +26,7 @@ USE_CAMERA_STUB := true
 
 TARGET_BOOTLOADER_BOARD_NAME := sapphire
 
-BOARD_KERNEL_BASE := 0x02000000
+BOARD_KERNEL_BASE := 0x19200000
 
 # # cat /proc/mtd
 # dev:    size   erasesize  name
@@ -36,6 +36,17 @@ BOARD_KERNEL_BASE := 0x02000000
 # mtd3: 05a00000 00020000 "system"
 # mtd4: 05000000 00020000 "cache"
 # mtd5: 127c0000 00020000 "userdata"
+
+# 6355 sapphire
+# # cat /proc/mtd
+# dev:    size   erasesize  name
+# mtd0: 00040000 00020000 "misc"
+# mtd1: 00500000 00020000 "recovery"
+# mtd2: 00280000 00020000 "boot"
+# mtd3: 0aa00000 00020000 "system"
+# mtd4: 08200000 00020000 "cache"
+# mtd5: 0a5c0000 00020000 "userdata"
+
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00280000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00500000
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x05a00000

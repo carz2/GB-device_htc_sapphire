@@ -49,6 +49,14 @@ PRODUCT_COPY_FILES += \
     $(TROUT_KEYMAPDIR)trout-keypad-v2.kl:/system/usr/keylayout/trout-keypad-v2.kl  \
     $(TROUT_KEYMAPDIR)trout-keypad-qwertz.kl:/system/usr/keylayout/trout-keypad-qwertz.kl
 
+# add in more audio files
+include frameworks/base/data/sounds/AudioPackage4.mk
+
+# T-Mobile theme engine
+#include vendor/carz/themes_common.mk
+
+# Theme packages
+#include vendor/carz/themes.mk
 
 # proprietary side of the device
 $(call inherit-product-if-exists, vendor/htc/sapphire/device_sapphire-vendor.mk)
