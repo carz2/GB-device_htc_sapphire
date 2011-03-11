@@ -36,7 +36,7 @@ PRODUCT_PACKAGES += \
    SpareParts \
    Superuser \
    LiveWallpapersPicker \
-   Filemanager
+   FileManager
 
 #add in dream keypad
 TROUT_KEYMAPDIR := device/htc/sapphire/keymaps/
