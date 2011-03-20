@@ -55,10 +55,10 @@ PRODUCT_COPY_FILES += \
 include frameworks/base/data/sounds/AudioPackage4.mk
 
 # T-Mobile theme engine
-#include vendor/carz/themes_common.mk
+include vendor/tmobile/themes_common.mk
 
 # Theme packages
-#include vendor/carz/themes.mk
+include vendor/tmobile/themes.mk
 
 # proprietary side of the device
 $(call inherit-product-if-exists, vendor/htc/sapphire/device_sapphire-vendor.mk)
