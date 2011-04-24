@@ -63,7 +63,7 @@ ALT_GPSSHIM_BOARDNAME     := trout
 
 #build camera library
 USE_CAMERA_STUB := false
-NO_GINGERBRED_CAMERA_SHIM := true
+
 
 #don't bother generating recovery image
 TARGET_NO_RECOVERY := true

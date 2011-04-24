@@ -20,7 +20,11 @@
 # WARNING: This line must come *before* including the proprietary
 # variant, so that it gets overwritten by the parent (which goes
 # against the traditional rules of inheritance).
+
 USE_CAMERA_STUB := true
+NO_GINGERBRED_CAMERA_SHIM := true
+
+BOARD_USE_ECLAIR_LIBCAMERA := true
 
 -include vendor/htc/sapphire/BoardConfigVendor.mk
 
@@ -49,8 +53,8 @@ BOARD_KERNEL_BASE := 0x19200000
 
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x00280000
 BOARD_RECOVERYIMAGE_PARTITION_SIZE := 0x00500000
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x05a00000
-BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x127c0000
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x0aa00000
+BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x0a5c0000
 
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_sapphire librecovery_ui_htc
 

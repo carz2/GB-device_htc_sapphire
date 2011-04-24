@@ -19,6 +19,9 @@
 # product configuration (apps).
 #
 
+# 6355 Sapphire prelink
+PRODUCT_SPECIFIC_DEFINES += TARGET_PRELINKER_MAP=\$(TOP)/device/htc/sapphire/prelink-linux-arm-sapphire6355.map
+
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, device/htc/sapphire/device_sapphire_us.mk)
