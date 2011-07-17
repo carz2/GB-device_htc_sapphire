@@ -31,6 +31,7 @@ PRODUCT_PACKAGES += \
     libOmxCore \
     su \
     vold.fstab \
+    com.android.future.usb.accessory \
     android.software.live_wallpaper.xml
 
 #APKs
