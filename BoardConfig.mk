@@ -22,7 +22,7 @@
 # against the traditional rules of inheritance).
 
 USE_CAMERA_STUB := true
-#NO_GINGERBRED_CAMERA_SHIM := true
+NO_GINGERBRED_CAMERA_SHIM := true
 
 BOARD_USE_ECLAIR_LIBCAMERA := true
 

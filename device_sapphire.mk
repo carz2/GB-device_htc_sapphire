@@ -32,7 +32,8 @@ PRODUCT_PACKAGES += \
     su \
     vold.fstab \
     com.android.future.usb.accessory \
-    android.software.live_wallpaper.xml
+    android.software.live_wallpaper.xml \
+    EzGbExtras
 
 #APKs
 PRODUCT_PACKAGES += \
