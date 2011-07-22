@@ -32,28 +32,30 @@ PRODUCT_PACKAGES += \
     su \
     vold.fstab \
     com.android.future.usb.accessory \
-    android.software.live_wallpaper.xml \
-    EzGbExtras
+    android.software.live_wallpaper.xml 
 
 #APKs
 PRODUCT_PACKAGES += \
-   SpareParts \
-   Superuser \
-   LiveWallpapersPicker \
-   FileManager \
-   AndroidTerm
+    SpareParts \
+    Superuser \
+    LiveWallpapersPicker \
+    FileManager \
+    AndroidTerm \
+    EzGbExtras \
+    Pacman
+   
 
 #add in dream keypad
-TROUT_KEYMAPDIR := device/htc/sapphire/keymaps/
-PRODUCT_COPY_FILES += \
-    $(TROUT_KEYMAPDIR)trout-keypad.kcm.bin:/system/usr/keychars/trout-keypad.kcm.bin  \
-    $(TROUT_KEYMAPDIR)trout-keypad-v3.kcm.bin:/system/usr/keychars/trout-keypad-v3.kcm.bin  \
-    $(TROUT_KEYMAPDIR)trout-keypad-v2.kcm.bin:/system/usr/keychars/trout-keypad-v2.kcm.bin  \
-    $(TROUT_KEYMAPDIR)trout-keypad-qwertz.kcm.bin:/system/usr/keychars/trout-keypad-qwertz.kcm.bin  \
-    $(TROUT_KEYMAPDIR)trout-keypad.kl:/system/usr/keylayout/trout-keypad.kl  \
-    $(TROUT_KEYMAPDIR)trout-keypad-v3.kl:/system/usr/keylayout/trout-keypad-v3.kl  \
-    $(TROUT_KEYMAPDIR)trout-keypad-v2.kl:/system/usr/keylayout/trout-keypad-v2.kl  \
-    $(TROUT_KEYMAPDIR)trout-keypad-qwertz.kl:/system/usr/keylayout/trout-keypad-qwertz.kl
+#TROUT_KEYMAPDIR := device/htc/sapphire/keymaps/
+#PRODUCT_COPY_FILES += \
+#    $(TROUT_KEYMAPDIR)trout-keypad.kcm.bin:/system/usr/keychars/trout-keypad.kcm.bin  \
+#    $(TROUT_KEYMAPDIR)trout-keypad-v3.kcm.bin:/system/usr/keychars/trout-keypad-v3.kcm.bin  \
+#    $(TROUT_KEYMAPDIR)trout-keypad-v2.kcm.bin:/system/usr/keychars/trout-keypad-v2.kcm.bin  \
+#    $(TROUT_KEYMAPDIR)trout-keypad-qwertz.kcm.bin:/system/usr/keychars/trout-keypad-qwertz.kcm.bin  \
+#    $(TROUT_KEYMAPDIR)trout-keypad.kl:/system/usr/keylayout/trout-keypad.kl  \
+#    $(TROUT_KEYMAPDIR)trout-keypad-v3.kl:/system/usr/keylayout/trout-keypad-v3.kl  \
+#    $(TROUT_KEYMAPDIR)trout-keypad-v2.kl:/system/usr/keylayout/trout-keypad-v2.kl  \
+#    $(TROUT_KEYMAPDIR)trout-keypad-qwertz.kl:/system/usr/keylayout/trout-keypad-qwertz.kl
 
 # add in more audio files
 include frameworks/base/data/sounds/AudioPackage4.mk
