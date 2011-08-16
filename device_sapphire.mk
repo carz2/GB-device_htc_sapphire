@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     FileManager \
     AndroidTerm \
     EzGbExtras \
-    Pacman
+    Pacman \
+    openvpn
    
 
 #add in dream keypad
