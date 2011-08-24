@@ -57,6 +57,8 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 0x0aa00000
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 0x0a5c0000
 
 #TARGET_RECOVERY_UI_LIB := librecovery_ui_sapphire librecovery_ui_htc
+TARGET_PREBUILT_KERNEL := device/htc/dream-sapphire/prebuilt/kernel/kernel
+LOCAL_KERNEL := device/htc/dream-sapphire/prebuilt/kernel/kernel
 
 #we are rooted builds security off
 OVERRIDE_FORCE_SECURE_OFF := true
