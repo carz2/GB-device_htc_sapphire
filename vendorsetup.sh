@@ -22,3 +22,4 @@
 # function: add_lunch_combo generic-eng
 
 add_lunch_combo full_sapphire-userdebug
+add_lunch_combo full_sapphire-eng
